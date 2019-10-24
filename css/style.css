@@ -1,0 +1,52 @@
+.footers a {color:#696969;}
+.footers p {color:#696969;}
+.footers ul {line-height:30px;}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .001s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .001s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .001s;
+ }
+
+ .list-inline-item a {
+    text-transform: uppercase;
+    size: 15px; 
+ }
+
+ .readmore {
+  position: absolute;
+  margin-top: -20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+ }
+
+.info {
+    background-color: grey;
+}
+
+.text-info{
+  position: relative;
+  padding:10px 0;
+
+}
+
+.text-info::after{
+    content: "";
+    position: absolute;
+    bottom: -1.4em;
+    box-sizing: border-box;
+    border: 0.7em solid black;
+    border-color: transparent transparent #bada55 #bada55;
+    transform-origin: 0 0;
+    transform: rotate(-45deg);
+  }
